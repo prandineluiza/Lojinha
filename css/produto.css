@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #8b5d7d31;
+}
+.produto{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px;
+    #imagem-produto{
+        width: 40%;
+        height: 40%;
+        border: 3.5px solid #dda5cb;
+        border-radius: 20px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 2px;
+    font-size: 16px;
+    border: 3px solid #406163;
+    border-radius: 30px;
+    background-color: #4F7B7D;
+    width: 200px;
+    color: #FFf;
+    .mais, .menos{
+        cursor: pointer;
+        padding: 12px;
+        width: 50px;
+        border-radius: 30px;
+        border: none;
+    }
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 22px;
+    font-size: 20px;
+    font-weight: 600;
+    button{
+        padding: 16px;
+        background-color: #4F7B7D;
+        color: #FFf;
+        border: 3.5px solid #406163;
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .name{
+        color: #ad6497;
+    }
+    p{
+        color: #3c2a37;
+    }
+    .descript{
+        color: #878285;
+    }
+}
